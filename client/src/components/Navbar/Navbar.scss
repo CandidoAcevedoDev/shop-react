@@ -1,0 +1,78 @@
+.navbar{
+    width: 100%;
+
+    .wrapper{
+        padding: 0.625rem 1.875rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    &__image,
+    &__coin{        
+        display: flex;
+        align-items: center;
+    }
+
+    &__image{
+        width: 1.8rem;
+    }
+
+    &__menu{
+        display: flex;
+        gap: 1rem;
+    }
+
+    &__center{
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+
+    &__right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    &__icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        color: #777;
+        cursor: pointer;
+    }
+
+    .card__icon{
+        position: relative;
+
+        &--span{
+           font-size: 12px;
+           width: 20px;
+           height: 20px;
+           border-radius: 50%;
+           background-color: #2879fe;
+           color: white;
+           position: absolute;
+           right: -10px;
+           top: -10px;
+           display: flex;
+           align-items: center;
+            justify-content: center;
+        }
+    }
+}
